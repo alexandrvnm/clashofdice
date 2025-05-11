@@ -115,3 +115,62 @@ a {
   margin-left: 40px;
   margin-bottom: 30px;
 }
+
+.enemy {
+  background-color: rgb(87, 76, 76);
+  padding: 70px;
+  border-radius: 5px;
+}
+
+.user-field {
+  background-color: rgb(87, 76, 76);
+  padding: 70px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.game__field {
+  margin: 150px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.game {
+  margin-top: 50px;
+}
+
+.user__button {
+  padding: 10px 25px;
+  font-size: 20px;
+  font-family: "Roboto Slab", serif;
+  outline: none;
+  border: none;
+  background-color: black;
+  color: rgb(189, 171, 171);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user__button:hover {
+  opacity: 0.7;
+}
+
+.game__history-list,
+.game__history-list-enemy {
+  list-style: none;
+  text-align: center;
+}
+
+.game__history-enemy {
+  background-color: rgb(85, 84, 84);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.game__history-user {
+  background-color: rgb(85, 84, 84);
+  border-radius: 5px;
+  padding: 10px;
+}
