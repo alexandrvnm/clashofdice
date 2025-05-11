@@ -174,3 +174,35 @@ a {
   border-radius: 5px;
   padding: 10px;
 }
+
+@media (max-width: 390px) {
+  .navigation__title {
+    font-size: 30px;
+    text-align: center;
+  }
+  .navigation__list {
+    display: none;
+  }
+  .user {
+    display: none;
+  }
+  body {
+    font-size: 16px;
+  }
+  .game__field {
+    margin: 70px 0;
+  }
+  .game__field-cube {
+    color: transparent;
+  }
+  .user__button {
+    font-size: 12px;
+    padding: 1px 15px;
+  }
+  .enemy {
+    padding: 30px;
+  }
+  .user-field {
+    padding: 30px;
+  }
+}
