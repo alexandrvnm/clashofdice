@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Underdog&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 25px;
+  font-family: "Roboto Slab", serif;
+  background-color: rgb(0, 0, 0);
+  color: rgb(189, 171, 171);
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background-color: rgb(38, 33, 33);
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.header__inner {
+  padding: 20px 0;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation__list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navigation__item {
+  margin-right: 15px;
+}
+
+.navigation__item-link {
+  color: rgb(189, 171, 171);
+}
+
+.item--opacity {
+  opacity: 0.7;
+  text-decoration: underline;
+}
+
+.navigation__item-link:hover {
+  opacity: 0.7;
+}
+
+.navigation__item:last-child {
+  margin-right: 0;
+}
+
+.user__balance {
+  display: flex;
+  align-items: center;
+}
+
+.user__balance-details {
+  margin-right: 20px;
+  font-size: 22px;
+  color: rgb(136, 141, 133);
+}
+
+.navigation__link {
+  text-decoration: none;
+}
+
+.navigation__title {
+  font-family: "Underdog", system-ui;
+  color: rgb(165, 126, 126);
+}
+
+.user__balance-btn {
+  padding: 9px 20px;
+  cursor: pointer;
+  outline: none;
+  font-family: "Roboto Slab", serif;
+  border: none;
+  background-color: black;
+  color: rgb(189, 171, 171);
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+.user__balance-btn:hover {
+  opacity: 0.7;
+}
+
+.info__inner {
+  margin-top: 100px;
+}
+
+.info__inner-card {
+  padding: 20px 40px;
+  background-color: rgb(38, 33, 33);
+  height: 500px;
+  border-radius: 5px;
+}
+
+.info__inner-card h1 {
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
